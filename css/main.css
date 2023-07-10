@@ -51,9 +51,9 @@ form{width:100%; height:840px; background:linear-gradient(#e4d8be 66%,#f2eee2 34
 
 
 
-#order{width:1150px; height:520px; margin:0 auto;}
+#order{width:1150px; height:600px; margin:0 auto;}
 #order h1{text-align:center; color:#7d7f7e; font-family: 'Noto Serif Georgian', serif;
-    font-size:40pt; padding:60px 0 0; letter-spacing:3px;}
+    font-size:40pt; padding:110px 0 0; letter-spacing:3px;}
 #order> .der{width:300px; height:200px; float:left; margin:30px;padding:29px;}
 #order> .der img{width:100px; float:left; margin:0 10px;}
 #order>.a img{padding:9px 0;}
@@ -136,14 +136,14 @@ form{width:100%; height:840px; background:linear-gradient(#e4d8be 66%,#f2eee2 34
     .box:hover:after {transform: rotate(53.1deg) translatex(0px);}
 
 
-#location{width:1150px; height:650px; margin:0 auto;position:relative;}
-.index1{position:absolute; top:30px; left:0;width:23%; height:90%;text-align:right;}
+#location{width:1150px; height:600px; margin:0 auto;position:relative;}
+.index1{position:absolute; top:70px; left:0;width:23%; height:90%;text-align:right;}
 .left{width:100%; overflow:hidden;}
 .index1 .left p{font-size:15px;padding:25px 35px;font-family: 'Noto Sans KR', sans-serif;}
 .index1 .left img{float:right;width:25px;padding:23px 0;}
 .index1 h3{color:#84b0bb; font-size:52px;margin:30px 10px;text-align:right;}
 
-.index4{position:absolute;width:600px;height:400px;background:#84b0bb;z-index:2; top:90px;left:420px;;}
-#location .loc{position:absolute;width:500px; height:400px;z-index:4; top:60px;left:400px;}
+.index4{position:absolute;width:600px;height:400px;background:#84b0bb;z-index:2; top:90px;right:0;}
+#location .loc{position:absolute;width:500px; height:400px;z-index:4; top:120px;right:180px;}
 
 
