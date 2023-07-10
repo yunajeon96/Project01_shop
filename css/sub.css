@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+table,tr,th,td{margin:0;padding:0;}
+
+#sub_main{width:1200px;background-image:linear-gradient(to right,#e7e7e1 70%, #036635 30%);margin:0 auto;}
+
+
+#div2{display:none;}
+#div3{display:none;}
+
+#qna{display:none;}
+#change{display:none;}
+
+.text_box{width:500px; height:700px;}
+.text_box>h2{font-family:'Sigmar', cursive; font-size:55px;letter-spacing:2px; padding:50px 40px;}
+.text_box img{width:100px; height:30px; margin:0 40px;}
+.text_box span{font-size:35px; padding:-10px;}
+.text_box p{width:450px; margin:30px 40px;}
+.text_box>button:nth-of-type(1){width:100px; height:45px; background-color:#fff; color:#333; border-radius:18px; border:none; margin:20px 50px; text-align:center;}
+.text_box>button:nth-of-type(1):before{content:"-";padding:5px 15px;color:#333;}
+.text_box>button:nth-of-type(1):after{content:"+";padding:5px 15px;color:#333;}
+.text_box>button:nth-of-type(2){width:150px; height:45px; background-color:#333; color:#fff; border-radius:18px; border:none;}
+.text_box>button:nth-of-type(2):hover{background-color:#036635; cursor:pointer;}
+ 
+
+
+.recommend{width:900px; height:300px;}
+.recommend>p{font-size:23px; font-weight:bold; padding:10px 40px;}
+.recommend .recom{width:200px; height:200px; margin:15px 5px 0 40px;float:left;border-radius:15px; box-shadow:5px 5px 10px #888888;}
+.recommend .recom img{float:left;padding:10px;}
+.recommend .recom p{margin:55px 0px -44px 98px; font-size:16px; font-weight:bold;}
+.recommend .recom p:nth-of-type(2){font-weight:lighter;}
+.recommend button{border-radius:15px;width:40px; height:20px; margin:100px 35px 0; box-shadow:5px 5px 10px #888888;border:none;background:#e7e7e1; }
+
+
+
+
+
+.img_box{float:right; width:600px; height:600px; position:relative;}
+.img_box img{margin:150px -50px 0 170px; filter:drop-shadow(30px 0 20px #333); width:305px;height:533px;}
+.img_box img:hover{transform:rotate(10deg) scale(1.2);}
+
+.img_box .left_box{position:absolute; top:280px; left:35px;}
+.img_box .left_box h3{margin:50px 0 10px; font-size:40px; color:#036635;font-family: 'Alumni Sans'}
+.img_box .left_box>select{border:none;font-size:15px; border-radius:5px;font-family: 'Noto Serif Georgian', serif;background:#f0efea;}
+
+.img_box .right_box{position:absolute; top:270px; right:10px;}
+.img_box .right_box>p{font-size:35px; margin:90px 0 50px 0;font-family: 'Alumni Sans', sans-serif;color:#e7e7e1;letter-spacing:2px;text-align:right;}
+
+
+
+#detail{width:1200px; height:800px; margin:0 auto;}
+#detail .bar{width:100%;height:59px;margin:100px auto 40px;border-bottom:3px solid beige;}
+#detail .bar button{width:150px;height:60px;text-align:center;background-color:#f2b705; border:1px solid #fff;margin:0 2px;float:left;color:#333;font-size:14px;}
+#detail .bar button:hover, #detail .bar button.active{background:beige;}
+
+#detail .sub_review table{width:100%;font-size:13px;height:500px;text-align:center;}
+#detail .sub_review table td:first-of-type{width:10%; border-bottom:1px solid #eee;}
+#detail .sub_review table td:nth-of-type(2){width:50%px;text-align:center; border-bottom:1px solid #eee;}
+#detail .sub_review table td:nth-of-type(3){width:15%; text-align:center; border-bottom:1px solid #eee;}
+#detail .sub_review table td:nth-of-type(4){width:15%; text-align:center; border-bottom:1px solid #eee;}
+#detail .sub_review table td:nth-of-type(5){width:10%; text-align:center; border-bottom:1px solid #eee;}
+
+.page{width:100%; text-align:center;margin:50px 0;}
+.page a{margin:20px;}
+
+button .write{width:100px;height:40px;text-align:center; border:1px solid #eee;margin-right:10px;background:#888888;color:#fff}
+button .write:hover{background:#333;cursor:pointer;}
+
+
+
+#detail .sub_qna table{width:100%;font-size:13px;height:500px;text-align:center;}
+#detail .sub_qna table td:first-of-type{width:10%; border-bottom:1px solid #eee;}
+#detail .sub_qna table td:nth-of-type(2){width:50%px;text-align:center; border-bottom:1px solid #eee;}
+#detail .sub_qna table td:nth-of-type(3){width:15%; text-align:center; border-bottom:1px solid #eee;}
+#detail .sub_qna table td:nth-of-type(4){width:15%; text-align:center; border-bottom:1px solid #eee;}
+#detail .sub_qna table td:nth-of-type(5){width:10%; text-align:center; border-bottom:1px solid #eee;}
+
+.write{width:100px;height:40px;text-align:center; border:1px solid #eee;margin:-80px 5px;background:#888888;color:#fff; float:right;}
+.write:hover{background:#333;cursor:pointer;}
+
+
+#detail #change{width:95%;font-size:13px;height:500px}
+#change .change_box{margin:50px 0;}
+#change .change_box h3{font-size:20px;border-bottom:1px solid #888888; margin:15px 0;}
+#change .change_box li{list-style-type:square;font-size:15px; line-height:40px; margin:0 40px;}

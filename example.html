@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>hover-effect1.html</title>
+
+
+
+    <style>
+        * {padding: 0; margin: 0;}
+
+
+        #best{width:1200px; height:700px;display:flex;flex-flow:row wrap;}
+
+        .box-wrap {
+            width: 33%;
+            height: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center; }
+        .box {
+            position: relative;
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+            cursor: pointer;
+            overflow: hidden;
+            width: 400px;
+            height: 350px; }
+        .box img {
+            width: 400px;
+            display: block;
+            height: 350px;
+            position: absolute;
+            z-index: 10;
+            transform: translatey(0px);
+            z-index: 30;
+            transition: all 0.35s ease-in-out;}
+        .box .info {
+            opacity: 0;
+            visibility: visible;
+            z-index: 50;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            text-align: center;
+            transition: all 0.35s ease-in-out; }
+        .box .info h3 {
+            font-size: 28px;
+            padding-bottom: 3px; }
+        .box:before {
+            content: '';
+            width: 500px;
+            height: 500px;
+            background: rgba(0, 0, 0, 0.7);
+            position: absolute;
+            z-index: 40;
+            top: 0;
+            right: 0;
+            left: auto;
+            transform-origin: 100% 0;
+            transform: rotate(52.5deg) translatex(-280px);
+            transition: all 0.35s ease-in-out;}
+        .box:after {
+            content: '';
+            width: 500px;
+            height: 500px;
+            background: rgba(0, 0, 0, 0.7);
+            position: absolute;
+            z-index: 40;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            transform-origin: 0 100%;
+            transform: rotate(52.5deg) translatex(280px);
+            transition: all 0.35s ease-in-out;}
+        .box:hover .info {
+            opacity: 1;visibility: visible;}
+        .box:hover:before {transform: rotate(53.1deg) translatex(0px);}
+        .box:hover:after {transform: rotate(53.1deg) translatex(0px);}
+    </style>
+
+</head>
+
+
+
+
+
+<body>
+
+<div id="best">
+    <div class="box-wrap">
+        <div class="box">
+            <div class="img"><img src="img/main/card.jpg"></div>
+            <div class="info">
+                <h3>FREQUENCY</h3>
+                <p>with 2023</p>
+                <h5>+</h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="box-wrap">
+        <div class="box">
+            <div class="img"><img src="img/main/card.jpg"></div>
+            <div class="info">
+                <h3>FREQUENCY</h3>
+                <p>with 2023</p>
+                <h5>+</h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="box-wrap">
+        <div class="box">
+            <div class="img"><img src="img/main/card.jpg"></div>
+            <div class="info">
+                <h3>FREQUENCY</h3>
+                <p>with 2023</p>
+                <h5>+</h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="box-wrap">
+        <div class="box">
+            <div class="img"><img src="img/main/card.jpg"></div>
+            <div class="info">
+                <h3>FREQUENCY</h3>
+                <p>with 2023</p>
+                <h5>+</h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="box-wrap">
+        <div class="box">
+            <div class="img"><img src="img/main/card.jpg"></div>
+            <div class="info">
+                <h3>FREQUENCY</h3>
+                <p>with 2023</p>
+                <h5>+</h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="box-wrap">
+        <div class="box">
+            <div class="img"><img src="img/main/card.jpg"></div>
+            <div class="info">
+                <h3>FREQUENCY</h3>
+                <p>with 2023</p>
+                <h5>+</h5>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>

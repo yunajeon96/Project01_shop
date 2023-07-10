@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'SUITE-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+a{text-decoration:none; cursor:pointer;}
+
+header{height:120px;}
+.search{width:1150px;margin:0 auto;}
+.search input[name="search"]{width:150px; margin:0 3px 0 950px;}
+.header{width:100%; height:110px;} 
+.search>button{border:0; border-radius:2px; padding:3px; margin:3px auto 0;}
+.search>button:hover{background:#0f4b43; color:#fff;cursor:pointer;}
+/* header>.circle{position:absolute; width:500px; height:500px; border-radius:50%; top:-200px; left:900px;
+           background-color:#ddf5e3;opacity:0.8;} */
+.header .inner{width:1150px; height:89px; border-top:1px solid #e9e9e9; border-bottom:1px solid #e9e9e9; margin:6px auto;}
+.header .inner>h1{float:left;padding:7px; margin-left:20px;}
+.header .inner>h1 img{width:70px;}
+.header .inner>.gnb{float:right; margin-right:250px; margin-top:17px;}
+.header .inner>.gnb>li{float:left;height:89px; margin:-20px 45px; position:relative;}
+.header .inner>.gnb>li:last-child{margin-right:0px;}
+.header .inner>.gnb>li>a{line-height:89px;color:#333;;display:block;font-size:16px;}
+.header .inner>.gnb>li:hover>a{color:#F29f05;}
+.header .inner .gnb>li .depth2{width:130px; position:absolute;margin-left:-50px;top:88px;background:rgba(255,255,255,0.7);display:none;z-index:66;}
+.header .inner>.gnb>li .depth2 li{text-align:center;}
+.header .inner>.gnb>li .depth2 li a{line-height:45px;display:block;font-size:15px;color:#333;border:0.5px solid #e9e9e9;}
+.header .inner>.gnb>li .depth2 li:hover a{color:#F29f05;}
+.header .inner>.gnb>li:hover .depth2{display:block;}
+
+
+footer{width:100%; height:350px;background-color:#0f4b43;}
+footer>#foot{width:1200px; height:350px; margin:0 auto; position:relative;}
+#foot .bottom{display:block; float:left; width:15%; height:310px; margin:5px;}
+#foot .logo{width:200px; padding:30px 0;}
+#foot .bottom h4{font-size:15px; color:#efe7e1; padding:35px 3px 10px;}
+#foot .bottom h4:hover{color:#F29f05; cursor:pointer;}
+#foot .bottom li{font-size:12px; color:#efe7e1; padding:10px 5px 0;}
+
+#foot .last{position:absolute; bottom:15%; left:33%;}
+#foot .last h3{font-size:11px; color:#efe7e1; padding:10px 0 0;text-align:center;letter-spacing:1px;font-family:normal;}
+
+
