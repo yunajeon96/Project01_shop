@@ -107,14 +107,14 @@ form{width:100%; height:840px; background:linear-gradient(#e4d8be 66%,#f2eee2 34
     .box:before {
         content: '';
         width: 500px;
-        height: 500px;
+        height: 1000px;
         background: rgba(0, 0, 0, 0.7);
         position: absolute;
         z-index: 40;
         top: 0;
         right: 0;
         left: auto;
-        transform-origin: 100% 0;
+        transform-origin: 100% 5%;
         transform: rotate(52.5deg) translatex(-280px);
         transition: all 0.35s ease-in-out;}
     .box:after {
